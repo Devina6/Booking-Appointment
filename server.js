@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 const controller404 = require('./controllers/404');
 
 app.use(bodyParser.urlencoded({extended:false}));
+app.use(express.static(path.join(__dirname,'public')));
 
 const adminRoutes = require('./routes/admin');
 const userRoutes = require('./routes/user');
