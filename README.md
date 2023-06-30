@@ -6,3 +6,4 @@
 4. install nodemon //npm install nodemon --save-dev
 5. install express //npm install --save express
 6. install sequelize //npm install --save sequelize
+7. install mysql2 //npm install --save mysql2
